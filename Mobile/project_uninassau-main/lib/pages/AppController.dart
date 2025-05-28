@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'pages/home.dart';
-import 'pages/task_page.dart';
-import 'pages/conexoes_page.dart'; // sua tela de conexões
+import 'home.dart';
+import 'task_page.dart';
+import 'conexoes_page.dart'; 
 
 class AppController extends StatefulWidget {
   const AppController({super.key});
