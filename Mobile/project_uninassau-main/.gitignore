@@ -19,10 +19,8 @@ migrate_working_dir/
 .idea/
 Mobile/.idea/
 
-# The .vscode folder contains launch configuration and tasks you configure in
-# VS Code which you may wish to be included in version control, so this line
-# is commented out by default.
-#.vscode/
+# VS Code
+.vscode/
 
 # Flutter/Dart/Pub related
 **/doc/api/
@@ -32,7 +30,7 @@ Mobile/.idea/
 .flutter-plugins-dependencies
 .pub-cache/
 .pub/
-/build/
+build/
 
 # Symbolication related
 app.*.symbols
@@ -40,10 +38,44 @@ app.*.symbols
 # Obfuscation related
 app.*.map.json
 
-# Android Studio will place build artifacts here
+# Android build artifacts
 /android/app/debug
 /android/app/profile
 /android/app/release
+/android/.gradle/
+/android/app/.cxx/
+/android/app/build/
+/android/local.properties
+/android/gradle/
+/android/gradlew
+/android/gradlew.bat
+/android/gradle-wrapper.jar
+
+# iOS build artifacts
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Linux build artifacts
+/linux/flutter/ephemeral/
 
 # Custom additions
 Mobile/project_uninassau-main/devtools_options.yaml
+
+# Node.js modules
+backend/node_modules/
+
+# Exclude image folders if needed (optional)
+# Mobile/project_uninassau-main/image/
+
+# Exclude workspace files
+*.code-workspace
+*.workspace
+
+# Exclude lock files (optional if you don't want to track them)
+/yarn.lock
+/package-lock.json
+
+# Others (if used)
+*.tmp
+*.bak
