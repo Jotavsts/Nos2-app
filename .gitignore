@@ -1,32 +1,73 @@
 
-# Flutter / Dart
-build/
-.dart_tool/
-.packages
-.flutter-plugins
-.flutter-plugins-dependencies
-.melos_tool/
-pubspec.lock
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
 
-# Android
-android/.gradle
-android/app/build/
-.gradle/
-local.properties
-
-# iOS
-ios/Pods
-ios/.symlinks
-ios/Flutter/Flutter.framework
-ios/Flutter/Flutter.podspec
+# IntelliJ/IDE
+*.iml
+*.ipr
+*.iws
+.idea/
 
 # VS Code
 .vscode/
 
-# Node.js (backend)
-node_modules/
-.env
+# Flutter/Dart/Pub
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+**/build/
 
-# Ignorar dependências
-node_modules/
+# Symbolication/Obfuscation
+app.*.symbols
+app.*.map.json
+
+# Android
+/android/app/build/
+/android/.gradle/
+/android/local.properties
+/android/gradlew
+/android/gradlew.bat
+/android/gradle-wrapper.jar
+
+# iOS
+/ios/Flutter/Generated.xcconfig
+/ios/Flutter/flutter_export_environment.sh
+/ios/Runner/GeneratedPluginRegistrant.*
+
+# Linux
+/linux/flutter/ephemeral/
+
+# Node.js
+backend/node_modules/
+
+# Custom additions
+Mobile/project_uninassau-main/devtools_options.yaml
+
+# Optional: Exclude image folders (uncomment if needed)
+# Mobile/project_uninassau-main/image/
+
+# Workspace and lock files
+*.code-workspace
+*.workspace
+/yarn.lock
+/package-lock.json
+
+# Temp files
+*.tmp
+*.bak
 
