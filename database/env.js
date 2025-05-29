@@ -1,0 +1,5 @@
+DB_HOST = "127.0.0.1:3306";
+DB_USER = "biancamoura";
+DB_PASSWORD = "220203040311";
+DB_DATABASE = "database Nos2";
+DB_PORT = 3306;
