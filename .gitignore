@@ -43,6 +43,7 @@ app.*.map.json
 /android/gradlew
 /android/gradlew.bat
 /android/gradle-wrapper.jar
+Mobile/project_uninassau-main/android/gradle/
 
 # iOS
 /ios/Flutter/Generated.xcconfig
@@ -57,6 +58,7 @@ backend/node_modules/
 
 # Custom additions
 Mobile/project_uninassau-main/devtools_options.yaml
+Mobile/project_uninassau-main/pubspec.lock
 
 # Optional: Exclude image folders (uncomment if needed)
 # Mobile/project_uninassau-main/image/
